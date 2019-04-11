@@ -1,0 +1,15 @@
+# configure auto-configured MultipartConfigElement
+
+multipart:
+  max-file-size: 50MB
+  max-request-size: 50MB
+  location: ${java.io.tmpdir}
+
+spring:
+  mvc:
+    favicon:
+      enabled: false
+com:
+  justgifit:
+    gif-loacation: ${java.io.tmpdir}/gif
+    optimize: true
